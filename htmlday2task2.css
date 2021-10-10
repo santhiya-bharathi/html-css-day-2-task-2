@@ -1,0 +1,87 @@
+.head1{
+    text-align: center;
+    font-family: sans-serif;
+    background: blueviolet;
+    color: white;
+    letter-spacing: 2px;
+    padding: 1rem;
+    border: black solid;
+}
+.head2{
+    text-align: center;
+    font-family: sans-serif;
+    background: rgb(204, 89, 50);
+    color: white;
+    letter-spacing: 2px;
+    padding: 0.5rem;
+    border: black solid;
+}
+.img{
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-left: 7rem;
+    border-style: solid;
+}
+input{
+    padding: 5px;
+}
+.in-box{
+    border: solid;
+    background: tan;
+    /* width: 25rem; */
+}
+.lab1{
+    margin-left: 7.5rem;
+}
+.lab2{
+    margin-left: 7.5rem;
+}
+.lab3{
+    margin-left: 5.5rem;
+}
+.lab4{
+    margin-left: 2.5rem;
+}
+.lab5{
+    margin-left: 1rem;
+}
+.lab6{
+    margin-left: 9rem;
+    padding: 20px;
+}
+button{
+    height: 3rem;
+    width: 6rem;
+    padding:5px;
+}
+section{
+    border: solid;
+    padding: 30px;
+}
+
+@media(min-width:600px){
+.in-box{
+    display: flex;
+    flex-direction: row;
+}
+.lab1{
+    margin-left: 15rem;
+    padding-top: 10px;
+}
+.lab2{
+    margin-left: 15rem;
+}
+.lab3{
+    margin-left: 13rem;
+}
+.lab4{
+    margin-left: 10rem;
+}
+.lab5{
+    margin-left: 8.5rem;
+}
+.lab6{
+    margin-left: 16rem;
+    padding: 20px;
+}
+}
